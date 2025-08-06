@@ -4,7 +4,7 @@
 [build]
   command = "pnpm build"
   publish = ".next"
-  functions = "netlify/functions"
+  functions = "Supercustom_function"
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
