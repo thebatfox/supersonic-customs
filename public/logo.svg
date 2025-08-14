@@ -1,0 +1,13 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular elements -->
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#2b3a99" stroke-width="8" stroke-dasharray="0 31.4 157 31.4"/>
+  <circle cx="60" cy="60" r="35" fill="none" stroke="#1e90ff" stroke-width="6" stroke-dasharray="0 22 110 22"/>
+
+  <!-- Diagonal lines -->
+  <line x1="25" y1="35" x2="95" y2="85" stroke="#2b3a99" stroke-width="8" stroke-linecap="round"/>
+  <line x1="35" y1="25" x2="85" y2="95" stroke="#1e90ff" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Text -->
+  <text x="140" y="45" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e90ff">SuperSonic</text>
+  <text x="140" y="85" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#2b3a99" letter-spacing="4px">CUSTOMS</text>
+</svg>

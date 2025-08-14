@@ -1,0 +1,269 @@
+.
+├── biome.json
+├── bun.lock
+├── components.json
+├── data
+│   ├── blog-comments.json
+│   └── restaurant-suggestions.json
+├── eslint.config.mjs
+├── GALLERY_SETUP.md
+├── IMAGE_GALLERY_GUIDE.md
+├── netlify.toml
+├── next.config.js
+├── next-env.d.ts
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── project_structure.txt
+├── public
+│   ├── background-logo.png
+│   ├── gallery
+│   │   ├── acoustic-panels
+│   │   │   ├── architectural-ceiling-panels.jpg
+│   │   │   ├── artistic-acoustic-panels.jpg
+│   │   │   ├── ceiling-acoustic-baffles.jpg
+│   │   │   ├── ceiling-framework-detail.jpg
+│   │   │   ├── ceiling-installation-work.jpg
+│   │   │   ├── corporate-exhibition-panel.jpg
+│   │   │   ├── decorative-ceiling-lighting.jpg
+│   │   │   ├── decorative-lounge-treatment.jpg
+│   │   │   ├── dining-acoustic-lighting.jpg
+│   │   │   ├── entertainment-room-treatment.jpg
+│   │   │   ├── geometric-ceiling-design.jpg
+│   │   │   ├── large-dining-installation.jpg
+│   │   │   ├── modular-acoustic-wall.jpg
+│   │   │   ├── panel-fabric-detail.jpg
+│   │   │   ├── panel-installation-process.jpg
+│   │   │   ├── restaurant-ceiling-treatment.jpg
+│   │   │   └── suspended-ceiling-panels.jpg
+│   │   ├── commercial-spaces
+│   │   │   ├── acoustic-wall-panels-backlighting.jpg
+│   │   │   ├── brick-office-acoustic-partition.jpg
+│   │   │   ├── conference-room-coffered-ceiling.jpg
+│   │   │   ├── conference-room-historical-artwork.jpg
+│   │   │   ├── geometric-acoustic-panel-wall.jpg
+│   │   │   ├── great-idea-office-workspace.jpg
+│   │   │   ├── luxury-restaurant-interior.jpg
+│   │   │   ├── marble-wall-office-lounge.jpg
+│   │   │   ├── medical-office-gradient-wall.jpg
+│   │   │   ├── meeting-room-artwork.jpg
+│   │   │   ├── modern-office-phone-booths.jpg
+│   │   │   ├── office-space-exposed-ceiling.jpg
+│   │   │   ├── open-office-workspace.jpg
+│   │   │   ├── restaurant-pendant-lighting.jpg
+│   │   │   ├── rustic-restaurant-bar.jpg
+│   │   │   ├── staircase-acoustic-treatment.jpg
+│   │   │   ├── supersonic-ceiling-installation.jpg
+│   │   │   ├── wooden-doorway-library-entrance.jpg
+│   │   │   └── wooden-slat-living-wall.jpg
+│   │   ├── fun-projects
+│   │   │   ├── acoustic-component-rc-car-demonstration.jpg
+│   │   │   ├── euphoria-communication-truck-display.jpg
+│   │   │   └── mobile-communication-truck-setup.jpg
+│   │   ├── industrial-machinery
+│   │   │   ├── acoustic-equipment-enclosure.jpg
+│   │   │   ├── building-acoustic-barrier-ventilation.jpg
+│   │   │   ├── generator-acoustic-enclosure-system.jpg
+│   │   │   ├── generator-enclosure-industrial-yard.jpg
+│   │   │   ├── industrial-acoustic-ceiling-framework.jpg
+│   │   │   ├── industrial-ceiling-acoustic-panels.jpg
+│   │   │   ├── pool-equipment-acoustic-decking.jpg
+│   │   │   ├── residential-generator-acoustic-housing.jpg
+│   │   │   ├── stairwell-acoustic-wall-panels.jpg
+│   │   │   └── wooden-acoustic-barrier-fence.jpg
+│   │   ├── night-clubs
+│   │   │   ├── acoustic-panel-installation.jpg
+│   │   │   ├── acoustic-panel-installation-work.jpg
+│   │   │   ├── advanced-nightclub-sound-system.jpg
+│   │   │   ├── artistic-ceiling-treatment.jpg
+│   │   │   ├── artistic-photo-collage-ceiling.jpg
+│   │   │   ├── artistic-staircase-projection.jpg
+│   │   │   ├── atmospheric-club-interior-design.jpg
+│   │   │   ├── audio-equipment-rack-blue-lighting.jpg
+│   │   │   ├── bar-acoustic-display.jpg
+│   │   │   ├── bar-installation-panoramic.jpg
+│   │   │   ├── blue-ambient-nightclub-lighting.jpg
+│   │   │   ├── chain-curtain-construction.jpg
+│   │   │   ├── chain-curtain-led-installation.jpg
+│   │   │   ├── chevron-bar-design-plants.jpg
+│   │   │   ├── chevron-bar-living-wall.jpg
+│   │   │   ├── club-acoustic-ceiling-installation.jpg
+│   │   │   ├── complex-lighting-installation.jpg
+│   │   │   ├── contemporary-club-acoustic-design.jpg
+│   │   │   ├── custom-dj-booth.jpg
+│   │   │   ├── cutting-edge-nightclub-interior.jpg
+│   │   │   ├── dj-booth-acoustic-treatment.jpg
+│   │   │   ├── dj-booth-geometric-ceiling.jpg
+│   │   │   ├── dj-booth-led-setup.jpg
+│   │   │   ├── dj-mixing-setup-green-lighting.jpg
+│   │   │   ├── dj-setup-green-lighting.jpg
+│   │   │   ├── dramatic-club-ambiance-lighting.jpg
+│   │   │   ├── elegant-bar-counter-installation.jpg
+│   │   │   ├── elite-club-sound-treatment.jpg
+│   │   │   ├── entertainment-venue-acoustic-treatment.jpg
+│   │   │   ├── fabric-installation-lounge.jpg
+│   │   │   ├── geometric-acoustic-ceiling-view.jpg
+│   │   │   ├── geometric-lounge-acoustic-panels.jpg
+│   │   │   ├── geometric-lounge-seating-area.jpg
+│   │   │   ├── green-acoustic-bar-design.jpg
+│   │   │   ├── halo-nightclub-led-ceiling.jpg
+│   │   │   ├── halo-nightclub-main-floor.jpg
+│   │   │   ├── high-end-club-acoustic-installation.jpg
+│   │   │   ├── immersive-club-lighting-acoustics.jpg
+│   │   │   ├── led-bar-chain-installation.jpg
+│   │   │   ├── led-bar-wave-pattern.jpg
+│   │   │   ├── led-ceiling-geometric-patterns.jpg
+│   │   │   ├── led-ceiling-system.jpg
+│   │   │   ├── led-cube-ceiling-system.jpg
+│   │   │   ├── led-staircase-installation.jpg
+│   │   │   ├── led-wall-vip-area.jpg
+│   │   │   ├── luxe-nightclub-acoustic-panels.jpg
+│   │   │   ├── luxurious-lounge-acoustic-seating.jpg
+│   │   │   ├── luxury-bar-speaker-integration.jpg
+│   │   │   ├── main-lounge-geometric-patterns.jpg
+│   │   │   ├── modern-nightclub-acoustic-installation.jpg
+│   │   │   ├── motivational-neon-signage.jpg
+│   │   │   ├── multi-level-club-led-display.jpg
+│   │   │   ├── multi-level-led-system.jpg
+│   │   │   ├── nightclub-purple-lighting-display.jpg
+│   │   │   ├── panel-cutting-installation.jpg
+│   │   │   ├── premium-bar-acoustic-display.jpg
+│   │   │   ├── premium-club-acoustic-panels.jpg
+│   │   │   ├── professional-audio-rack-system.jpg
+│   │   │   ├── professional-club-acoustic-setup.jpg
+│   │   │   ├── red-bull-acoustic-treatment.jpg
+│   │   │   ├── sophisticated-bar-acoustic-design.jpg
+│   │   │   ├── supersonic-branded-technician.jpg
+│   │   │   ├── supersonic-fabric-installation.jpg
+│   │   │   ├── supersonic-installation-work.jpg
+│   │   │   ├── vip-acoustic-wall-treatment.jpg
+│   │   │   ├── vip-geometric-panels-seating.jpg
+│   │   │   ├── vip-installation-work-progress.jpg
+│   │   │   ├── vip-led-wall-lounge.jpg
+│   │   │   ├── vip-living-wall-seating.jpg
+│   │   │   ├── vip-lounge-living-wall.jpg
+│   │   │   ├── vip-neon-signage.jpg
+│   │   │   └── welding-fabrication-work.jpg
+│   │   ├── README.md
+│   │   ├── restaurants
+│   │   │   ├── bar-ceiling-installation.jpg
+│   │   │   ├── booth-seating-treatment.jpg
+│   │   │   ├── ceiling-acoustic-baffles.jpg
+│   │   │   ├── decorative-ceiling-treatment.jpg
+│   │   │   ├── dining-area-panels.jpg
+│   │   │   ├── fine-dining-acoustic-panels.jpg
+│   │   │   ├── installation-framework.jpg
+│   │   │   ├── lounge-acoustic-treatment.jpg
+│   │   │   ├── outdoor-dining-acoustics.jpg
+│   │   │   ├── supersonic-installation-work.jpg
+│   │   │   ├── suspended-acoustic-panels.jpg
+│   │   │   ├── team-installation.jpg
+│   │   │   └── wooden-acoustic-lighting.jpg
+│   │   ├── schools-worship
+│   │   │   ├── acoustic-wood-paneling-seating-area.jpg
+│   │   │   ├── church-complete-acoustic-installation.jpg
+│   │   │   ├── church-interior-acoustic-treatment.jpg
+│   │   │   ├── church-sanctuary-acoustic-panels.jpg
+│   │   │   ├── church-sanctuary-balcony-view.jpg
+│   │   │   ├── church-sanctuary-pipe-organ-acoustics.jpg
+│   │   │   ├── classroom-acoustic-installation-progress.jpg
+│   │   │   ├── classroom-acoustic-panel-installation.jpg
+│   │   │   ├── school-ceiling-acoustic-treatment.jpg
+│   │   │   ├── school-classroom-ceiling-installation.jpg
+│   │   │   └── supersonic-team-classroom-acoustic-work.jpg
+│   │   └── tech-av
+│   │       ├── audio-equipment-installation.jpg
+│   │       ├── av-system-setup.jpg
+│   │       ├── dj-booth-audio-installation.jpg
+│   │       └── supersonic-dj-booth-branded.jpg
+│   ├── hero-bg.jpg
+│   ├── logo.svg
+│   ├── supersonic-logo.png
+│   ├── watermark-logo-hq.png
+│   └── watermark-logo.png
+├── README.md
+├── src
+│   ├── app
+│   │   ├── about
+│   │   │   └── page.tsx
+│   │   ├── api
+│   │   │   ├── blog-comment
+│   │   │   │   └── route.ts
+│   │   │   ├── contact
+│   │   │   │   └── route.ts
+│   │   │   ├── questionnaire
+│   │   │   │   └── route.ts
+│   │   │   ├── restaurant-suggestion
+│   │   │   │   └── route.ts
+│   │   │   ├── restaurant-suggestions
+│   │   │   │   └── route.ts
+│   │   │   └── site-visit
+│   │   │       └── route.ts
+│   │   ├── blog
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   └── [slug]
+│   │   │       └── page.tsx
+│   │   ├── book-site-visit
+│   │   │   └── page.tsx
+│   │   ├── ClientBody.tsx
+│   │   ├── gallery
+│   │   │   ├── acoustic-panels
+│   │   │   │   └── page.tsx
+│   │   │   ├── commercial-spaces
+│   │   │   │   └── page.tsx
+│   │   │   ├── fun-projects
+│   │   │   │   └── page.tsx
+│   │   │   ├── industrial-machinery
+│   │   │   │   └── page.tsx
+│   │   │   ├── night-clubs
+│   │   │   │   └── page.tsx
+│   │   │   ├── restaurants
+│   │   │   │   └── page.tsx
+│   │   │   ├── schools-worship
+│   │   │   │   └── page.tsx
+│   │   │   ├── [slug]
+│   │   │   │   └── page.tsx
+│   │   │   └── tech-av
+│   │   │       └── page.tsx
+│   │   ├── globals.css
+│   │   ├── images
+│   │   │   └── page.tsx
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── BlogComments.tsx
+│   │   ├── ContactSection.tsx
+│   │   ├── FloatingRestaurantSuggestion.tsx
+│   │   ├── Footer.tsx
+│   │   ├── GalleryHoldingPage.tsx
+│   │   ├── gallery-schema.tsx
+│   │   ├── GallerySection.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── Navigation.tsx
+│   │   ├── PrivacyNotice.tsx
+│   │   ├── QuestionnaireSection.tsx
+│   │   ├── schema-markup.tsx
+│   │   ├── ServicesSection.tsx
+│   │   └── ui
+│   │       ├── badge.tsx
+│   │       ├── button.tsx
+│   │       ├── card.tsx
+│   │       ├── form.tsx
+│   │       ├── input.tsx
+│   │       ├── label.tsx
+│   │       ├── select.tsx
+│   │       ├── separator.tsx
+│   │       └── textarea.tsx
+│   ├── data
+│   │   ├── blog-posts.ts
+│   │   └── projects.ts
+│   ├── hooks
+│   │   └── useForm.ts
+│   └── lib
+│       └── utils.ts
+├── tailwind.config.ts
+├── tsconfig.json
+└── tsconfig.tsbuildinfo
+
+40 directories, 226 files
