@@ -9,7 +9,6 @@ const navLinks = [
   { href: "#gallery", label: "Gallery" },
   { href: "/blog", label: "Blog" },
   { href: "#contact", label: "Contact" },
-  { href: "#questionnaire", label: "Get Quote" },
 ];
 
 export default function Navigation() {
@@ -31,7 +30,7 @@ export default function Navigation() {
             <img
               src="/logo.svg"
               alt="Supersonic Customs"
-              className="h-10 w-auto object-contain hover:opacity-80 transition-opacity"
+              className="h-8 md:h-10 w-auto object-contain hover:opacity-80 transition-opacity"
             />
           </Link>
         </div>
